@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Adidas";
+}
+
+<style>
+    ul li {
+        float: left;
+        margin-left: 30px;
+        font-size: 20px;
+        font-family: Helvetica;
+        color: white;
+    }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+            ul li a:hover {
+                text-decoration: underline;
+                color: yellow;
+            }
+</style>
+<div style="width:100%; margin-left:39px; height: auto;">
+
+    <div>
+        <ul style="list-style: none; height: 30px; width:100%;">
+            <li>@Html.ActionLink("Nike", "Nike", "Home")</li>
+            <li>@Html.ActionLink("Adidas", "Adidas", "Home")</li>
+            <li>@Html.ActionLink("New Balance", "NewBalance", "Home")</li>
+            <li>@Html.ActionLink("Clarks", "Clarks", "Home")</li>
+            <li>@Html.ActionLink("Asics", "Asics", "Home")</li>
+            <li>@Html.ActionLink("Creative Recreation", "CR", "Home")</li>
+            <li>@Html.ActionLink("Puma", "Puma", "Home")</li>
+        </ul>
+    </div>
+    @Html.Raw(ViewBag.View)
+</div>
+

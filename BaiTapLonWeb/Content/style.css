@@ -1,0 +1,251 @@
+	body {
+            background-color: #2F2F2F;
+            padding-top: 40px;
+        }
+
+    #menu ul li a{
+        text-decoration:none;
+        font-family: Helvetica;
+        font-size:17px;
+        color: grey;
+    }
+
+    #menu ul li a:hover{
+        text-decoration:underline;
+        color: black;
+    }
+
+        #demo-wrapper {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            padding: 40px 20px 0px 20px;
+        }
+
+        #demo-left {
+            width: 15%;
+            float: left;
+        }
+
+        #demo-right {
+            width: 100%;
+            float: left;
+            padding-bottom: 10px;
+        }
+
+        #hWrapperAuto {
+            margin-top: 20px;
+            width: 90%;
+        }
+
+        #demo-tabs {
+            width: 100%;
+            height: 50px;
+            color: White;
+            margin: 0;
+            padding: 0;
+        }
+
+            #demo-tabs div.item {
+                height: 35px;
+                float: left;
+                background-color: #2F2F2F;
+                border: solid 1px gray;
+                border-bottom: none;
+                padding: 0;
+                margin: 0;
+                margin-left: 10px;
+                text-align: center;
+                padding: 10px 4px 4px 4px;
+                font-weight: bold;
+            }
+
+        #contents {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            color: White;
+            font: arial;
+            font-size: 11pt;
+        }
+
+        #demo-tabs div.item.active-tab {
+            background-color: Black;
+        }
+
+        #demo-tabs div.item.active-tabc {
+            background-color: Black;
+        }
+
+        #v1, #v2 {
+            margin: 20px;
+        }
+
+        .visible {
+            display: block;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #oldWrapper {
+            margin-left: 100px;
+        }
+
+        #contents a {
+            color: yellow;
+        }
+
+            #contents a:hover {
+                text-decoration: none;
+                color: Gray;
+            }
+
+        .heading {
+            font-size: 20pt;
+            font-weight: bold;
+        }
+
+        #header{
+            background-image: url(shoes_banner.jpg);
+            height: 250px; 
+            margin-top: 5px;
+            margin-left: 39px;
+            margin-right: 2px;
+        }
+
+        #footer{
+            clear: both;
+            margin-left: 39px;
+            margin-bottom: 10px;
+            margin-right: 2px;
+            height: 200px;
+            margin-top: 25px;
+            
+        }
+
+        #footer1{
+            float: left;
+            width: 45%;
+            height: 200px;
+            
+            color: white;
+        }
+        #footer2{
+            float: left;
+            width: 30%;
+            height: 200px;
+            
+            color: white;
+        }
+        #footer3{
+            float: left;
+            width: 25%;
+            height: 200px;
+            
+            color: white;
+        }
+
+        #menu{
+            width:100%;
+            margin-left: 39px;
+            margin-right: 2px;
+            height: 60px;
+            background-color: #2F2F2F;
+        }
+
+        #menu ul li {
+            float: left;
+            margin-left: 15px;
+            list-style: none;
+            margin-top: 0px;
+            height: 20px;
+            color: white;
+            position: relative;
+            text-decoration: none;
+            width: 60px;
+            padding-top: 8px;
+            padding-left:5px;
+            padding-right: 5px;
+            padding-bottom: 4px;
+            font-family: "Helvetica";
+            font-size:15px;
+        }
+
+        #menu ul li:hover{
+            color: black;
+            background-color: yellow;
+            border-radius: 4px;
+            border-bottom: 3px solid black;
+        }
+
+        #menu ul li ul{
+            margin-top: 8px;
+            display: none;
+            position: absolute;
+            width: 400px;
+        }
+
+        #menu ul li ul li{
+            width: 65px;
+            padding-right: 10px;
+        }
+
+        #menu ul li ul li a{
+            text-decoration: none;
+            color:lightslategrey;
+            font-family: "Helvetica";
+            padding-left: 5px;
+            font-size: 15px;
+            margin-top: 5px;
+        }
+
+        #menu ul li ul li a:hover{
+            text-decoration: none;
+            color: black;
+        }
+        
+        #menu ul li:hover ul{
+            display: block;
+        }
+
+        #menu  div > ul > li > ul >li{	
+	        float:left;
+	        text-indent: 10px;
+	        width:100%;
+            margin-left: 30px;
+        }
+
+        #menu  div > ul > li > ul >li a:hover{	
+	        text-decoration: none;
+            color: yellow;
+        }
+
+        .col1{
+            float: left;
+            width: 25%;          
+        }
+
+
+        .cell {
+            float:left; 
+            margin-top:20px;  
+            margin-left:10px;
+            margin-bottom: 10px;
+            width: 95%;
+            height: 250px;
+            color: whitesmoke;
+        }
+
+        .cell img{
+            width: 95%;
+            height: 90%;
+        }
+
+        .space{
+            width:100%;
+            height:10px;
+        }
+

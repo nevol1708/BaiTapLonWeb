@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3469cec2fa224735afbec0dd4f8e3ada" Name="Diagram1">
+        <EntityTypeShape EntityType="webbangiayModel.chitietHDB" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="webbangiayModel.chitietHDN" Width="1.5" PointX="8.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="webbangiayModel.dathang" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="webbangiayModel.hinhanh" Width="1.5" PointX="5.25" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="webbangiayModel.hoadonban" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="webbangiayModel.hoadonnhap" Width="1.5" PointX="6" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="webbangiayModel.khachhang" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="webbangiayModel.nhasx" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="webbangiayModel.quantri" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="webbangiayModel.sanpham" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="webbangiayModel.soluong" Width="1.5" PointX="5.25" PointY="19.75" IsExpanded="true" />
+        <AssociationConnector Association="webbangiayModel.pk_macthdb" ManuallyRouted="false" />
+        <AssociationConnector Association="webbangiayModel.pk_mactspb" ManuallyRouted="false" />
+        <AssociationConnector Association="webbangiayModel.pk_macthdn" ManuallyRouted="false" />
+        <AssociationConnector Association="webbangiayModel.pk_mactspn" ManuallyRouted="false" />
+        <AssociationConnector Association="webbangiayModel.fk_makhdh" ManuallyRouted="false" />
+        <AssociationConnector Association="webbangiayModel.fk_maspdh" ManuallyRouted="false" />
+        <AssociationConnector Association="webbangiayModel.pk_maspaf" ManuallyRouted="false" />
+        <AssociationConnector Association="webbangiayModel.pk_makhmua" ManuallyRouted="false" />
+        <AssociationConnector Association="webbangiayModel.pk_mansxf" ManuallyRouted="false" />
+        <AssociationConnector Association="webbangiayModel.pk_maspslf" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

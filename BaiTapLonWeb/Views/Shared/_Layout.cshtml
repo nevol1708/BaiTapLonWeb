@@ -1,0 +1,59 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>jQuery Thumbnail/Content Slider: jsCarouselV2.0.0</title>
+
+
+    <script src="~/Javascript/jquery-1.4.4.min.js"></script>
+    <script src="~/Javascript/jsCarousel-2.0.0.js"></script>
+    
+    <link href="~/Content/jsCarousel-2.0.0.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/slider.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#carouselh').jsCarousel({ onthumbnailclick: function (src) { alert(src); }, autoscroll: true, circular: true, masked: false, itemstodisplay: 10, orientation: 'h' });
+            
+        });
+
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="menu">
+        
+        <ul><img src="~/Content/icon_home.png" style="float:left;"/>
+            <li>
+            <a href="">@Html.ActionLink("Home", "Index", "Home")</a>
+            </li>
+            <li>
+                Shopping
+                <ul>
+                    <li><a href="">@Html.ActionLink("Footwear", "Footwear", "Home")</a></li>
+                    <li><a href="">Backpack</a></li>
+                    <li><a href="">Apparel</a></li>
+                </ul>
+            </li>
+            <li>Blog</li>
+        </ul>
+    </div>
+    @RenderBody()
+    <div id="footer">
+        <div id="footer1">
+            <h3>Address</h3>
+            <p>ABC</p>
+        </div>
+        <div id="footer2">
+            <h3>Instruction</h3>
+            <p>How to order</p>
+            <p>How to pay</p>
+        </div>
+        <div id="footer3">
+            <h3>Reference link</h3>
+            <p>facebook</p>
+            <p>Instagram</p>
+        </div>
+    </div>
+</body>
+</html>
